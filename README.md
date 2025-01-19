@@ -1,3 +1,22 @@
+# Excel Title Batch Insertion Tool
+
+This tool is designed to extract titles from a specific column in an Excel file and batch insert them into the first row of multiple sheets in another Excel file. It supports unmerging existing cells, re-merging specified ranges, and inserting titles in a formatted manner.
+
+## Features
+
+- Extract titles from a specific column in a source Excel file.
+- Insert these titles into the first row of multiple sheets in a target Excel file in sequence.
+- Automatically unmerge any merged cells and re-merge the specified range.
+- Insert titles with center alignment.
+- Supports flexible configuration options such as file paths, title columns, starting rows, and sheets.
+
+## Dependencies
+
+- `openpyxl`: Used to read and modify Excel files. You can install it with the following command:
+  ```bash
+  pip install openpyxl
+
+
 # Excel标题批量插入工具
 
 该工具用于从一个 Excel 文件中的特定列提取标题，并批量将这些标题按顺序插入到另一个 Excel 文件的指定工作表的第一行。支持取消合并单元格、重新合并指定范围，并按格式插入标题。
